@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    <title>Product Design</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="product">
+            <div class="gallary">
+                <img src="1.png" alt="" id="image">
+                <button><i class="fa-solid fa-heart" id="heart"></i></button>
+                <div class="btn" id="wishlist">Added to Wishlist</div>
+                <div class="control">
+                    <i class="fa-solid fa-chevron-left" id="left"></i>
+                    <i class="fa-solid fa-chevron-right" id="right"></i>
+                </div>
+                <div class="indicator">
+                    <span class="btn1 active"></span>
+                    <span class="btn1"></span>
+                    <span class="btn1"></span>
+                    <span class="btn1"></span>
+                </div>
+            </div>
+            
+            <div class="details">
+                <h1> Naruto Sasuke Action Figure</h1>
+                <h2>₹777 <span>₹1200</span></h2>
+                <h3>30% OFF</h3>
+                <span class="rating">4.5<i class="fa-solid fa-star"></i></span>
+                <span>24 rating & 1 review</span>
+                <p>A true anime fan needs to have this Naruto Shippuden Sasuke Uchiha action figure. From the anime
+                    series Naruto comes this highly detailed pvc statue. It stands approximately 18 cm tall. This figure
+                    is beautifully moulded with neat detailing to give a realistic feel.</p>
+                <div class="description">
+                    <div>
+                        <h2>Highlights</h2>
+                        <li>Width x Height: 10 cm x 18 cm</li>
+                        <li>Material: PVC</li>
+                        <li>Non Battery Operated</li>
+                        <li>Character: NARUTO</li>
+                        <li>Age: 5+ Years</li>
+                    </div>
+                </div>
+
+                <form>
+                    <div class="color-select">
+                        <p>Color</p>
+                        <label for="red">
+                            <input type="radio" name="color" id="red">
+                            <span class="color-1"></span>
+                        </label>
+                        <label for="green">
+                            <input type="radio" name="color" id="green">
+                            <span class="color-2"></span>
+                        </label>
+                        <label for="yellow">
+                            <input type="radio" name="color" id="yellow">
+                            <span class="color-3"></span>
+                        </label>
+                        <label for="blue">
+                            <input type="radio" name="color" id="blue">
+                            <span class="color-4"></span>
+                        </label>
+                    </div>
+                    <div class="quan-select">
+                        <p>Quantity</p>
+                        <label for="quan">
+                            <input type="number" min="1" max="10" value="1" id="quan">
+                        </label>
+                    </div>
+                    <div class="btn">
+                        <button>Buy Now</button>
+                        <button>Add to cart</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
